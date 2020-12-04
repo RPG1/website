@@ -1,73 +1,73 @@
-html body {
-    margin: 0;
-    padding: 0;
-}
-
 .main {
-    width: 1538px;
-    margin: 0 auto;
-    background-color: lightgray;
+    background-color: gray;
+    margin: -21px;
+}
+.h {
+    color: lightgreen;
+    text-shadow: 2px 2px 4px #000000;;
+    direction: rtl;
     text-align: center;
 }
-
-.h {
-    font-weight: bold;
-    color: teal;
-    font-family: sans-serif;
-    background-color: aliceblue;
-    height: 73px;
-    margin-top: 0px;
+.logo {
+    position: fixed;
+    top: -1px;
+    right: 1845px;
+    border-radius: 50%;
 }
 
-.img1 {
-    position: relative;
-    top: -108px;;
-    right: 727px;
-    border-radius: 84px;
-}
-
-.par {
+.bar {
     display: flex;
+    display: flex;
+    justify-content: space-evenly;
     list-style: none;
-    position: relative;
-    top: -36px;
-    justify-content: space-around;
-
+    background-color: black;
+    padding: 10px;
 }
 
-.ch a {
-    background-color: green;
+ul li a {
+    font-weight: bold;
+    font-family: sans-serif;
     color: white;
     text-decoration: none;
-    padding: 6px;
+}
+
+.brands {
+}
+
+.gorilla {
+    position: fixed;
+    right: -27px;
+    bottom: 720px;
+}
+
+.nebbia {
+    position: fixed;
+    left: -29px;
+}
+
+.Swimsuit {
+    position: relative;
+    bottom: -102px;
+    background-color: beige;
+}
+
+.men {
+    position: relative;
+    right: -10px;
+    top: 0px;
     font-size: large;
-    position: relative;
-    top: -318px;
-    left: -30px;
-}
-
-.i1 {
-    position: relative;
-    top: 31px;
-}
-.imges {
-    background-color: cadetblue;
-    height: 181px;
-    position: relative;
-    top: -325px;
-    
-    width: 1537px;
-    left: 191px;
-    border: 1px solid gray;
-}
-
-.ss {
-    position: relative;
-    top: -15px;
-    left: 98px;
-    border: 3px solid;
-    background-color: aquamarine;
-    float: left;
     font-family: sans-serif;
+}
+.wom {
+    position: relative;
+    top: -162px;
+    right: -247px;
     font-size: large;
+    font-family: sans-serif;
+}
+
+.w1 {
+    position: relative;
+    top: -155px;
+    left: 232px;
 }
